@@ -29,7 +29,7 @@ jobs:
         cache: 'npm'
     - name: Perform NPM install
       run: npm install
-    - name: Display SoftUni name
-      run: echo 'username'
     - name: Perform Unit tests 
       run: npm run test:unit
+    - name: Display SoftUni name
+      run: echo 'username'
